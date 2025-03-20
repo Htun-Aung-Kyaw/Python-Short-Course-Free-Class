@@ -64,6 +64,12 @@ Win + R -> cmd
 print(data,sep=' ',end='\n')
 ```
 
+#### Cpython
+
+```
+python -m dis file.py
+```
+
 ##### string
 
 * char -> single ch -> H, A, 1, 2 -> ' '(single quote)
@@ -85,4 +91,54 @@ print(1) # number
 | - pipe
 & - amphasand
 % - percentage / modulus
+```
+#### print()
+
+```
+print(number) -> ''/"" no need
+print('string',"string")
+print("output", sep=" ", end="\n")
+```
+
+#### Scope
+
+local - block access
+[if, for, while, function] - static type PL
+python -> function scope
+```
+if(name == "Htun Aung")
+{
+    int age = 26;
+    print("Welcome Htun Aung");
+}
+print(age) # error: cannot access 
+```
+global - universal access
+
+python creates scope using indentation
+
+##### Variable - container
+
+local scope -> local variable
+global scope -> global variable
+constant -> naming UPPERCASE
+
+##### LEGB
+L - local
+E - enclose
+G - global
+B - built-in
+
+##### Memory overwrite
+```
+name = "HA"
+name = "HAK"
+```
+###### CPU -> RAM -> Harddisk
+-------------------------
+###### Homework
+* March 20, 2025
+```
+1. print(f'name: %s\nage: %d\naddress: %s',name,age,address)
+2. LEGB
 ```
