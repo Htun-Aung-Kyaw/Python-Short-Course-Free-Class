@@ -142,3 +142,111 @@ name = "HAK"
 1. print(f'name: %s\nage: %d\naddress: %s',name,age,address)
 2. LEGB
 ```
+
+-------------------------
+##### Looping
+
+* for var in iteratable items/function
+
+```
+for i in range(start, stop, step):
+    print(i)
+```
+
+* while condition:
+
+```
+i = 0
+while i<=10:
+    print(i)
+```
+
+* iteratable items -> list(array) -> [2,3,4,5,6]
+* iteratable function -> range()
+
+* condition
+0 and 1 -> true and false
+
+true -> code
+false -> code
+
+logical operation
+switch
+binary system
+octa system
+hexa system
+decimal system 0->9
+
+```
+if condition:
+    //code
+elif condition:
+    //code
+else:
+    //code
+```
+
+------------------
+
+##### List (Array) 
+
+var1 = 1
+var2 = 2
+var3 = 3
+var4 = 4
+
+num = [1,2,3,4] -> data
+      [0,1,2,3] -> index
+      [-4,-3,-2,-1] -> negative index
+
+index -> value
+room no. -> data
+
+num[0] -> 1
+num[1] -> 2
+num[3] -> 4
+
+---------------
+##### Tracing
+bug -> error
+
+1. Theory
+2. Coding Experience
+
+code -> how does it work?
+-------------------------
+## Operator
+operand
+operator
+operation
+
+Arithmetic Operations
+1 + 2 - (3 + 4)
+
+1+2 = 3 +3 = 6 + 4 -> 10
+
+3 + 4 
+
+2**3**2
+
+Relational Operations
+< > <= >=
+Equality Operations
+== != <>
+logical Operations
+and or not
+
+binary operation
+
+precedence - priority
+associativity 
+-------------------------
+###### Homework
+* March 22, 2025
+```
+1. argument vs parameter
+2. for vs while
+3. print(1 + 2 - (3 + 4))
+```
+-------------------------
+
