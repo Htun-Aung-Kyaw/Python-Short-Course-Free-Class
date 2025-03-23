@@ -7,3 +7,4 @@ while True:
     print(line)
 print('Done')
 
+# line[4] -> n

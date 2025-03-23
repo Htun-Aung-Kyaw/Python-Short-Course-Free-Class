@@ -227,13 +227,18 @@ Arithmetic Operations
 
 3 + 4 
 
-2**3**2
+```2**3**2```
 
 Relational Operations
+
 < > <= >=
+
 Equality Operations
+
 == != <>
+
 logical Operations
+
 and or not
 
 binary operation
@@ -248,5 +253,27 @@ associativity
 2. for vs while
 3. print(1 + 2 - (3 + 4))
 ```
--------------------------
+------------------------
+
+### Type Casting - Type Change
+
+input() -> string
+
+int()
+
+float()
+
+--------------------
+### Exception Handling
+
+default -> error -> auto terminate
+
+error handle -> continue the program
+
+```
+try:
+    \\ error ဖြစ်စေနိုင်တဲ့ code
+except:
+    \\ error message
+``` 
 

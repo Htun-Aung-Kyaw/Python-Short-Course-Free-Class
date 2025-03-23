@@ -1,3 +1,4 @@
+arr = []
 def push(item):
     global arr
     # arr = arr + [item] # list concat with + syntax
