@@ -5,7 +5,8 @@ for i in [10002, 23, 23, 3466, 45, 6, 5640000]:
         minum = i
     elif i < minum:
         minum = i
-
     print("current number", i, "minum", minum)
 
 print("Min is ", minum)
+
+print("Using min function:",min(10002, 23, 23, 3466, 45, 6, 5640000))

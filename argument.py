@@ -7,11 +7,9 @@ print("Area2", area(10))
 print("Area3", area(10, 3))
 
 
-def names(*name):
-    for n in name:
+def printNames(*names):
+    for n in names:
         print(n)
 
-
-names("Tony", "Rogers", "Banner")
-
-
+printNames("Tony", "Rogers", "Banner", "Thor", "Natasha")
+# names = ["Tony", "Rogers", "Banner", "Thor", "Natasha"]

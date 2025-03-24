@@ -24,4 +24,3 @@ print("after pop ", arr)
 
 push(20)
 print("push 20 ",arr)
-

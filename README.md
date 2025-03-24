@@ -214,7 +214,9 @@ bug -> error
 2. Coding Experience
 
 code -> how does it work?
+
 -------------------------
+
 ## Operator
 operand
 operator
@@ -245,7 +247,9 @@ binary operation
 
 precedence - priority
 associativity 
+
 -------------------------
+
 ###### Homework
 * March 22, 2025
 ```
@@ -276,4 +280,31 @@ try:
 except:
     \\ error message
 ``` 
+----------
 
+### Function
+
+1. Built-in functions
+2. Programmer defined functions
+
+```
+def function_name(parameter, parameter):
+    // code
+```
+
+* function doesn't run without invokation
+
+1. parameter -> variable
+2. argument -> value
+
+* no return value -> void function
+* return value -> return function
+-----
+##### Homework
+
+```
+1. Alias
+2. shallow copy vs deep copy
+3. University Grading System 
+```
+----
